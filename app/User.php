@@ -27,4 +27,10 @@ class User extends Authenticatable
         = ['password',
            'remember_token',];
     
+    
+    
+    public function songs()
+    {
+        return $this->hasMany('App\Songs','user_id','id');
+    }
 }

@@ -10,6 +10,7 @@
   "require": {
     "php": ">=5.6.4",
     "barryvdh/laravel-ide-helper": "^2.3",
+    "doctrine/dbal": "^2.5",
     "laravel/framework": "5.4.*",
     "laravel/tinker": "~1.0",
     "mp3063/mail-activation": "^5.4",
@@ -17,6 +18,7 @@
   },
   "require-dev": {
     "fzaninotto/faker": "~1.4",
+    "laravel/browser-kit-testing": "v1.0.3",
     "mockery/mockery": "0.9.*",
     "phpunit/phpunit": "~5.7"
   },
